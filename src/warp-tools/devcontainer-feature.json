@@ -1,0 +1,9 @@
+{
+    "name": "Packfiles Warp Toolchain",
+    "id": "warp-tools",
+    "version": "1.0.0",
+    "description": "The Packfiles Warp CLI Toolchain",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/github-cli"
+    ]
+}

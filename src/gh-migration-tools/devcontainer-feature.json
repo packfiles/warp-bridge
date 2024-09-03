@@ -1,0 +1,9 @@
+{
+    "name": "GitHub Migration Toolchain",
+    "id": "gh-migration-tools",
+    "version": "1.0.0",
+    "description": "This devcontainer feature installs GitHub's first-party migration tools and utilities",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/github-cli"
+    ]
+}
