@@ -13,8 +13,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - gh-migration-tools
+          - warp-tools
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,8 +34,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - gh-migration-tools
+          - warp-tools
     steps:
       - uses: actions/checkout@v4
 
