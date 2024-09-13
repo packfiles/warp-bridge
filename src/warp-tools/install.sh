@@ -14,8 +14,8 @@ mkdir -p $_REMOTE_USER_HOME/.local/share/gh/extensions
 # matter.
 export GH_HOST=skip-gh-cli-auth-check.github.com
 
-# Install gh pack
-gh extension install github.com/packfiles/gh-pack
-cp -r /root/.local/share/gh/extensions/gh-pack $_REMOTE_USER_HOME/.local/share/gh/extensions
+# Install warp CLI extension
+gh extension install github.com/packfiles/gh-warp
+cp -r /root/.local/share/gh/extensions/gh-warp $_REMOTE_USER_HOME/.local/share/gh/extensions
 
 chown -R $_REMOTE_USER:$_REMOTE_USER $_REMOTE_USER_HOME
